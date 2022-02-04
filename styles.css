@@ -1,0 +1,65 @@
+/* GENERAL */
+/* Colors:
+Primary: #FFC72C,
+Secondary: #DA291C,
+Tertiary: #27251F */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: sans-serif;
+  color: #27251f;
+}
+
+/* HEADER */
+
+.logo {
+  height: 5rem;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin: 2rem 6rem;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+
+  list-style: none;
+  font-size: 2rem;
+}
+
+/* HERO SECTION */
+
+.section-hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffc72c;
+}
+
+.hero-text-box {
+  padding: 4rem;
+}
+
+.hero-text {
+  font-size: 5.5rem;
+  color: #da291c;
+}
+
+.hero-image {
+  max-width: 50vw;
+}
