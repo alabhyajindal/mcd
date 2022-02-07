@@ -5,7 +5,8 @@ Secondary: #DA291C,
 Tertiary: #27251F,
 Gray: #b7b7b7,
 Beige: #B69A81, 
-White: #fff */
+White: #fff,
+Orange: #e54838 */
 
 * {
   margin: 0;
@@ -127,6 +128,7 @@ body {
   margin: 3rem 0 2rem 0;
   padding: 1.5rem;
   border-radius: 0 0 100px 0;
+  padding-left: 4rem;
 }
 
 .menu-details {
@@ -244,10 +246,6 @@ body {
   gap: 5rem;
   align-items: center;
   margin: 5rem 5rem;
-
-  /* background-image: url(./images/happy-meal/corn.png);
-  background-size: 3rem;
-  border-radius: 0 10rem 20rem 50rem; */
 }
 
 .hm-app {
@@ -311,4 +309,83 @@ body {
   color: #da291c;
   text-align: center;
   width: 60%;
+}
+
+/* EAT */
+
+.eat {
+  display: flex;
+  align-items: center;
+}
+
+.eat-text-box {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 5rem;
+}
+
+.hm-logo {
+  width: 15rem;
+}
+
+.eat-text-heading {
+  font-size: 3.5rem;
+}
+
+.red-para {
+  color: #da291c;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.eat-tile-box {
+  background-color: #ffc72c;
+  padding: 2rem;
+}
+
+.toys-tile-box {
+  display: flex;
+  flex-grow: 1;
+  gap: 5rem;
+  margin: 3rem;
+}
+
+.toys-tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.toys-tile-image {
+  width: 20rem;
+  border-radius: 20px;
+}
+
+.toys-tile-text {
+  font-size: 1.8rem;
+  background-color: #e54838;
+  color: #fff;
+  font-weight: bold;
+  padding: 1rem;
+  border-radius: 50px;
+  text-align: center;
+  width: 80%;
+}
+
+.eat-icon-box {
+  justify-content: flex-end;
+  margin-right: 5rem;
+}
+
+/* CITY */
+
+.choose-city {
+  display: flex;
+  border-radius: 50px;
+  padding: 1.5rem;
+  align-items: center;
+
+  background-color: #ffc72c;
+  font-size: 1.5rem;
 }
