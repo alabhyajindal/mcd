@@ -380,6 +380,17 @@ body {
 
 /* CITY */
 
+.city {
+  display: flex;
+}
+
+.city-text {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  justify-content: end;
+}
+
 .choose-city {
   display: flex;
   border-radius: 50px;
@@ -388,4 +399,16 @@ body {
 
   background-color: #ffc72c;
   font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.hm-splash {
+  height: 20rem;
+  align-self: center;
+}
+
+.city-image {
+  flex-grow: 1;
+  margin: 0;
+  padding: 0;
 }
