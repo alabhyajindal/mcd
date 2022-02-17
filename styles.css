@@ -458,6 +458,20 @@ body {
 
 /* NEWS */
 
+.news {
+  position: relative;
+}
+
+.pop-out-news {
+  background-color: #eee;
+  width: 50rem;
+  padding: 2rem;
+
+  position: absolute;
+  top: 40px;
+  right: 120px;
+}
+
 .news-box-container {
   display: flex;
   gap: 5rem;
