@@ -412,3 +412,87 @@ body {
   margin: 0;
   padding: 0;
 }
+
+/* ORDER */
+
+.order {
+  display: flex;
+  padding: 2rem;
+}
+
+.order-text {
+  background-color: #fff;
+}
+
+.red-button {
+  padding: 2rem;
+  background-color: #da291c;
+  display: inline-block;
+  border-radius: 20px;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.delivery-partner {
+  height: 5rem;
+}
+
+.delivery-container {
+  padding-top: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.order-image {
+}
+
+.delivery-person {
+  /* width: 100%; */
+  /* height: auto; */
+  max-width: 50vw;
+}
+
+/* NEWS */
+
+.news-box-container {
+  display: flex;
+  gap: 5rem;
+  align-items: center;
+}
+
+.news-box {
+  background-color: #ffc72c;
+  width: 25rem;
+}
+
+.news-box-image {
+  width: 25rem;
+}
+
+.news-box-heading {
+  text-transform: uppercase;
+  background-color: #da291c;
+  display: inline-block;
+  color: #fff;
+  padding: 1rem 3rem;
+  position: relative;
+  bottom: 15px;
+}
+
+.latest-news-heading {
+  font-weight: bold;
+}
+
+.latest-news-container {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+
+.latest-news-hr {
+  margin-top: 20px;
+}
