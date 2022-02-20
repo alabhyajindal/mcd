@@ -408,6 +408,7 @@ body {
 
 .choose-city {
   display: flex;
+  justify-content: space-between;
   border-radius: 50px;
   padding: 1.5rem;
   align-items: center;
