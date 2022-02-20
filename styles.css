@@ -510,3 +510,106 @@ body {
 .latest-news-hr {
   margin-top: 20px;
 }
+
+/* INSTAGRAM */
+
+.instagram {
+  display: flex;
+  gap: 2rem;
+  margin-top: 5rem;
+}
+
+.instagram-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #00b7ad;
+  flex-grow: 1;
+}
+
+.yellow-button {
+  padding: 2rem;
+  background-color: #ffc72c;
+  display: inline-block;
+  border-radius: 20px;
+  color: #000;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.instagram-image {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 2rem;
+  flex-grow: 1;
+}
+
+.carousel-image {
+  width: 25rem;
+  border-radius: 10px;
+}
+
+/* OFFERS */
+
+.offers {
+  display: flex;
+}
+
+.offers-text {
+  background-color: #ffc72c;
+  flex-grow: 1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem 5rem;
+}
+
+.email-subscription {
+  display: flex;
+  gap: 2rem;
+}
+
+.email-input {
+  padding: 1rem;
+  border-radius: 50px;
+  border: none;
+}
+
+.social-links {
+  margin-top: 1rem;
+  font-weight: bold;
+  display: flex;
+  gap: 1rem;
+  font-size: 2rem;
+}
+
+.offers-image {
+  flex-grow: 1;
+}
+
+/* FOOTER */
+
+footer {
+  border-top: 2px solid #b69a81;
+  width: 80%;
+  padding-top: 2rem;
+
+  margin: 4rem auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.company-details {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
