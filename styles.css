@@ -34,7 +34,12 @@ body {
   justify-content: space-between;
   align-items: center;
 
-  margin: 2rem 6rem;
+  padding: 2rem 6rem;
+
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+  z-index: 10000;
 }
 
 .nav-links {
@@ -382,6 +387,7 @@ body {
 
 .city {
   display: flex;
+  align-items: center;
 }
 
 .city-text {
@@ -389,6 +395,15 @@ body {
   flex-direction: column;
   gap: 5rem;
   justify-content: end;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.city-image {
+}
+
+.mcd-happy-mascot {
+  max-width: 60vw;
 }
 
 .choose-city {
@@ -400,17 +415,12 @@ body {
   background-color: #ffc72c;
   font-size: 1.5rem;
   cursor: pointer;
+  width: 60%;
 }
 
 .hm-splash {
   height: 20rem;
   align-self: center;
-}
-
-.city-image {
-  flex-grow: 1;
-  margin: 0;
-  padding: 0;
 }
 
 /* ORDER */
@@ -578,6 +588,10 @@ body {
   padding: 1rem;
   border-radius: 50px;
   border: none;
+}
+
+.email-input:focus {
+  outline: none;
 }
 
 .social-links {
